@@ -7,9 +7,26 @@
     <title>Familiares</title>
 </head>
 <body>
-    {% for  cadena in msgs %}
-    <h2> Se guardó a {{ msgs[cadena] }} en la Base de Datos.</h2>
-    {% endfor %}
+
+    <h1>Lista de familiares:</h1>
+    <h2>Familiar:</h2>
+    <h3>Nombre: {{ flia1.nombre }}</h2>
+    <h3>Apellido: {{ flia1.apellido }}</h2>
+    <h3>Edad: {{ flia1.edad }}</h2>
+    <h3>Fecha de nacimiento: {{ flia1.fecha_nacimiento }}</h2>
+
+    <h2>Familiar:</h2>
+    <h3>Nombre: {{ flia2.nombre }}</h2>
+    <h3>Apellido: {{ flia2.apellido }}</h2>
+    <h3>Edad: {{ flia2.edad }}</h2>
+    <h3>Fecha de nacimiento: {{ flia2.fecha_nacimiento }}</h2>
+    
+    <h2>Familiar:</h2>
+    <h3>Nombre: {{ flia3.nombre }}</h2>
+    <h3>Apellido: {{ flia3.apellido }}</h2>
+    <h3>Edad: {{ flia3.edad }}</h2>
+    <h3>Fecha de nacimiento: {{ flia3.fecha_nacimiento }}</h2>
+            
 </body>
 </html>
 
